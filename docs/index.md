@@ -5,13 +5,6 @@ hero:
   name: Executive Copilot Immersion
   text: Practical AI for commercial banking leaders
   tagline: Prepare for executive reviews, analyze business trends, and communicate decisions with Microsoft 365 Copilot.
-  actions:
-    - theme: brand
-      text: Start the participant lab
-      link: /commercial-bank-lab/
-    - theme: alt
-      text: Browse the materials
-      link: "#immersion-materials"
 ---
 
 <!-- markdownlint-disable MD013 MD033 MD041 -->
@@ -40,7 +33,7 @@ The Excel activity uses the sample workbook at [aka.ms/sampleExcel2](https://aka
 
 ## Immersion materials {#immersion-materials}
 
-<p class="home-section-intro">Start with the participant lab, keep the prompt library nearby, and use the trainer guide to prepare the optional agent demonstration.</p>
+<p class="home-section-intro">Start with prompting fundamentals, complete the participant lab, keep the prompt library nearby, and use the trainer guide to prepare the optional agent demonstration.</p>
 
 <div class="lab-grid">
   <a class="lab-card" href="./commercial-bank-lab/">
@@ -70,16 +63,16 @@ The Excel activity uses the sample workbook at [aka.ms/sampleExcel2](https://aka
     <span class="lab-card-desc">Build and validate a lightweight role-based agent for a focused executive workflow demonstration.</span>
     <span class="lab-card-cta">Open the guide →</span>
   </a>
+  <a class="lab-card" href="./prompting-best-practices/">
+    <span class="lab-card-meta">
+      <span class="lab-card-badge">Core skill</span>
+    </span>
+    <span class="lab-card-emoji">✨</span>
+    <span class="lab-card-title">Prompting Best Practices</span>
+    <span class="lab-card-desc">Build stronger prompts with a clear goal, context, sources, and expectations.</span>
+    <span class="lab-card-cta">Learn the pattern →</span>
+  </a>
 </div>
-
-<a class="resource-bubble" href="./resources/">
-  <span class="resource-bubble-icon">📚</span>
-  <span class="resource-bubble-text">
-    <span class="resource-bubble-title">Resources</span>
-    <span class="resource-bubble-desc">Additional documentation and guides.</span>
-  </span>
-  <span class="resource-bubble-cta">View →</span>
-</a>
 
 </div>
 

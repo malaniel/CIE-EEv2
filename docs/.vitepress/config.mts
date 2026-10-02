@@ -16,9 +16,9 @@ export default defineConfig({
           { text: "Commercial Bank Lab", link: "/commercial-bank-lab/" },
           { text: "Executive Prompt Library", link: "/executive-prompt-library/" },
           { text: "Chief of Staff Agent", link: "/chief-of-staff-agent/" },
+          { text: "Prompting Best Practices", link: "/prompting-best-practices/" },
         ],
       },
-      { text: "Resources", link: "/resources/" },
     ],
     search: {
       provider: "local",
@@ -30,12 +30,7 @@ export default defineConfig({
           { text: "Commercial Bank Lab", link: "/commercial-bank-lab/" },
           { text: "Executive Prompt Library", link: "/executive-prompt-library/" },
           { text: "Chief of Staff Agent", link: "/chief-of-staff-agent/" },
-        ],
-      },
-      {
-        text: "Take it with you",
-        items: [
-          { text: "Resources", link: "/resources/" },
+          { text: "Prompting Best Practices", link: "/prompting-best-practices/" },
         ],
       },
     ],
