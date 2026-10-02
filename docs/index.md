@@ -4,6 +4,16 @@ layout: home
 hero:
   name: Copilot Immersion Experience for Banking Leaders
   tagline: Prepare for executive reviews, analyze business trends, and communicate decisions with Microsoft 365 Copilot.
+  actions:
+    - theme: brand
+      text: Immersion Materials
+      link: "#immersion-materials"
+    - theme: alt
+      text: Sample Workbook
+      link: "#sample-workbook"
+    - theme: alt
+      text: Copilot Chat Top Tips
+      link: "#copilot-chat-top-tips"
 ---
 
 <!-- markdownlint-disable MD013 MD033 MD041 -->
@@ -69,9 +79,21 @@ This experience uses lightweight, adaptable materials to help you move from busi
   </a>
 </div>
 
-### Sample workbook
+### Sample workbook {#sample-workbook}
 
 The Excel activity uses the sample workbook at [aka.ms/sampleExcel2](https://aka.ms/sampleExcel2). Download it, save or upload it to OneDrive, and open the OneDrive copy before using Copilot in Excel.
+
+</div>
+
+<div class="home-section">
+
+## Copilot Chat Top Tips {#copilot-chat-top-tips}
+
+<p class="home-section-intro home-section-intro--wide">Use these practical reminders to get clearer, more useful results from Microsoft 365 Copilot Chat.</p>
+
+Copilot Chat includes powerful shortcuts and controls that help users reference organizational content, engage agents, save and reuse prompts, schedule automated requests, and personalize how Copilot works for you.
+
+![Copilot Chat top tips](./assets/CopilotChatTopTips.png)
 
 </div>
 
