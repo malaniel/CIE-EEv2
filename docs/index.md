@@ -8,9 +8,9 @@ hero:
 ---
 
 <!-- markdownlint-disable MD013 MD033 MD041 -->
-<div class="home-section">
+<div class="home-section home-section--intro">
 
-## Welcome to the immersion
+## Welcome to the Copilot Immersion Experience for Executives
 
 <p class="home-section-intro">A focused, 90-minute experience built around practical leadership workflows for commercial banking executives.</p>
 

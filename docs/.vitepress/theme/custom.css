@@ -28,6 +28,10 @@ html:not(.dark) .dark-only {
 }
 
 /* Align image-free heroes with home content and use the available width. */
+.VPHomeHero:not(.has-image) {
+  padding-bottom: 24px;
+}
+
 .VPHomeHero:not(.has-image) .container {
   max-width: 1104px;
 }
@@ -53,6 +57,10 @@ html:not(.dark) .dark-only {
   border-top: none;
   margin-top: 2.5rem;
   padding-top: 0;
+}
+
+.home-section--intro h2 {
+  margin-top: 1rem;
 }
 
 .home-section-intro {
