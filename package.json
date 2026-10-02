@@ -11,6 +11,6 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "lint:md": "markdownlint-cli2 \"docs/**/*.md\" \"#docs/node_modules\""
+    "lint:md": "markdownlint-cli2 \"docs/**/*.md\" \"#docs/.vitepress/dist\" \"#docs/.vitepress/cache\""
   }
 }
