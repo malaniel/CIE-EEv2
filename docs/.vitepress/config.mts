@@ -1,24 +1,23 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "AI Skill Building with Cowork",
+  title: "Executive Copilot Immersion",
   description:
-    "Hands-on flights for building real AI skills with Microsoft 365 Copilot Cowork.",
-  base: "/how-to-use-cowork/",
+    "Practical Microsoft 365 Copilot workflows for commercial banking leaders.",
+  base: "/CIE-EEv2/",
   cleanUrls: true,
-  head: [["link", { rel: "icon", href: "/how-to-use-cowork/CoworkIcon.png" }]],
+  head: [["link", { rel: "icon", href: "/CIE-EEv2/CoworkIcon.png" }]],
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
       {
-        text: "Flights",
+        text: "Immersion materials",
         items: [
-          { text: "Flight 01 · Orientation Through Discovery", link: "/orientation/" },
-          { text: "Flight 02 · Your Weekly Manager Update", link: "/weekly-update/" },
-          { text: "Flight 03 · Make It Your Own", link: "/make-it-your-own/" },
+          { text: "Commercial Bank Lab", link: "/orientation/" },
+          { text: "Executive Prompt Library", link: "/weekly-update/" },
+          { text: "Chief of Staff Agent", link: "/make-it-your-own/" },
         ],
       },
-      { text: "Learn Cowork with Cowork", link: "/learn-cowork-with-cowork/" },
       { text: "Resources", link: "/resources/" },
     ],
     search: {
@@ -26,17 +25,16 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: "Flights",
+        text: "Immersion materials",
         items: [
-          { text: "Flight 01 · Orientation Through Discovery", link: "/orientation/" },
-          { text: "Flight 02 · Your Weekly Manager Update", link: "/weekly-update/" },
-          { text: "Flight 03 · Make It Your Own", link: "/make-it-your-own/" },
+          { text: "Commercial Bank Lab", link: "/orientation/" },
+          { text: "Executive Prompt Library", link: "/weekly-update/" },
+          { text: "Chief of Staff Agent", link: "/make-it-your-own/" },
         ],
       },
       {
         text: "Take it with you",
         items: [
-          { text: "Learn Cowork with Cowork", link: "/learn-cowork-with-cowork/" },
           { text: "Resources", link: "/resources/" },
         ],
       },
@@ -44,7 +42,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/malaniel/how-to-use-cowork/",
+        link: "https://github.com/malaniel/CIE-EEv2/",
       },
     ],
     footer: {

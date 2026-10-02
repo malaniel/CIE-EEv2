@@ -1,8 +1,8 @@
 {
-  "name": "skl233-ai-skill-building-with-cowork",
+  "name": "cie-eev2",
   "version": "1.0.0",
   "private": true,
-  "description": "AI Skill Building: How to Use Copilot Cowork — hands-on labs.",
+  "description": "Executive Copilot Immersion materials for commercial banking leaders.",
   "devDependencies": {
     "markdownlint-cli2": "^0.22.0",
     "vitepress": "^2.0.0-alpha.12"

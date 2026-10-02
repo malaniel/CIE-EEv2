@@ -484,7 +484,8 @@ a.bonus-card:hover {
   margin-top: 0;
 }
 
-/* Take-it-with-you page (Learn Cowork with Cowork) */.takeaway-hero {
+/* Take-it-with-you content */
+.takeaway-hero {
   margin: 1.75rem 0 2rem;
   padding: 2rem 2.25rem;
   border-radius: 18px;
@@ -636,4 +637,3 @@ a.bonus-card:hover {
 .takeaway-share p strong {
   color: var(--vp-c-text-1);
 }
-

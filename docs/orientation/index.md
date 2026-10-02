@@ -1,165 +1,143 @@
 ---
-description: Get oriented in Copilot Cowork, find your skills, and run a discovery-first dashboard workflow.
-time: 15
+description: Use Microsoft 365 Copilot to prepare for an executive review, analyze a forecast workbook, and draft a concise leadership update.
+outline: deep
 ---
 
-# ✈️ Pre-Flight: Orientation Through Discovery
+<!-- markdownlint-disable MD013 -->
 
-**Welcome aboard.** This is your pre-flight check: get familiar with Copilot Cowork, find where your skills and controls live, and run your first task - turning a data file into a visual board of open and completed work.
+# 🏦 Commercial Bank Lab
 
-Cowork does the heavy lifting, but you stay in the captain's seat - it checks in for your approval before it acts.
+**Welcome to the immersion.** You are a VP in a commercial bank preparing for a leadership review. You need to understand the business context, identify risks, review forecast trends, and create a short update for senior leaders.
 
 ## What You'll Produce {#what-youll-produce}
 
-By the end of this flight, Copilot Cowork will have:
+By the end of this lab, you will have:
 
-- ✅ Analyzed a data file and identified open vs. completed work
-- ✅ Built a self-contained HTML Kanban board you can preview in the conversation
-- ✅ Sent you a summary email and drafted a Teams update for your review
-- ✅ Shown you which skills it loaded and what it needs your approval for
-
-## What is Copilot Cowork? {#what-is-copilot-cowork}
-
-Copilot Cowork is a new way to delegate work to Copilot. You describe what you need and it works across your Microsoft 365 environment to get it done.
-
-It comes with built-in skills, including:
-
-- **Documents**: Read, create, and edit Word, Excel, PowerPoint, and PDF files
-- **html**: Create, edit, and validate standalone single-file HTML
-- **Communications**: Audience-adaptive drafting for emails and messages
-- **Calendar Management**: Full-spectrum calendar management with classification and automation
-- **Skill Management**: Create, validate, and manage your own personal Cowork skills
-
-You can also add custom skills stored in OneDrive. Cowork asks for your approval before taking most actions - you're always in control.
-
-## The Scenario {#the-scenario}
-
-You want a quick snapshot of where your work stands: what's open, what's in progress, and what's done. Instead of building a board by hand, you'll point Copilot Cowork at a project tracker, let it do the analysis, and have it produce a visual board plus two communications. Along the way, you'll learn exactly where Cowork keeps its inputs, outputs, skills, and approvals.
-
-You'll use a sample project tracker so everyone gets a predictable result - but you can swap in your own work context anytime to make it immediately relevant to you.
-
-## Flight Assets {#flight-assets}
-
-This flight uses one source file.
-
-| File | What it contains |
-| --- | --- |
-| `project-tracker.csv` | 25 fictional tasks across several workstreams, with columns for status, priority, percent complete, start and due dates, owner, and notes. Statuses are a mix of Completed, In Progress, Not Started, and Blocked, so the board fills out nicely. |
-
-<!-- markdownlint-disable-next-line MD033 -->
-📥 **Download flight assets:** <a href="/how-to-use-cowork/project-tracker.csv" download="project-tracker.csv">project-tracker.csv</a>
-
-## Exercise 1.1 - Find Your Way Around {#exercise1-find-your-way-around}
-
-Before you run anything, learn where the important surfaces live.
-
-1. Open [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat/)
-
-1. Select **Cowork**.
-
-    ![Microsoft 365 Copilot showing Cowork highlighted in a white box](./assets/select-cowork.png)
-
-    You'll land on the Copilot Cowork homepage. From here you can type a new task in the prompt window, try one of the pre-built task samples, or pick up where you left off from the recent tasks list.
-
-    ![Microsoft 365 Copilot showing Cowork task view](./assets/task-view.png)
-
-    > [!NOTE]
-    > Your Copilot Cowork homepage may look slightly different depending on when you access it.
-
-1. In the prompt area, select **+** and note the three ways to add context:
-
-    - **Add work context** - reference files, people, emails, and Teams chats from your organization
-    - **Upload images and files** - browse your device
-    - **Attach cloud files** - pick from OneDrive, SharePoint, or Teams
-
-1. Look at the **left navigation** under the Cowork tab. This is how you move between your work:
-
-    ![Microsoft 365 Copilot showing Cowork navigation](./assets/cowork-navigation.png)
-
-    - **New task** - start a fresh task in a clean conversation
-    - **My tasks** - return to tasks you've already run
-    - **Scheduled** - Review & set up prompts to run automatically on a recurring schedule
-    - **Customize** - manage your plugins and skills, including any custom skills you add
-
-1. Select **Customize** and then select the **Skills** tab. Browse through the **built-in skills**. These are the skills Cowork can draw on automatically - you don't have to call them by name. Notice skills like **html**, **Communications**, and **Documents**, which you'll see in action shortly.
-
-    ![Microsoft 365 Copilot showing Cowork skills](./assets/skills.png)
-
-> [!TIP]
-> You don't pick skills manually. Cowork loads the right ones on demand based on what you ask - you'll watch this happen in the next exercise.
-
-## Exercise 1.2 - Run Your First Task {#exercise2-run-first-task}
-
-Now put it together. You'll give Cowork some context to work from, send a task, and watch it build a board, send you a summary email, and draft a Teams update - checking in for your approval as it acts.
+- ✅ A concise executive briefing grounded in relevant work content
+- ✅ An analysis of revenue, expense, and margin trends in a forecast workbook
+- ✅ A short leadership update focused on risks, decisions, and next steps
 
 > [!NOTE]
-> Cowork adapts to the context it has, so it won't behave identically for everyone. Depending on what it already knows - or what permissions are already set up - it may or may not open an action window or ask a clarifying question before it runs. If your experience doesn't match the steps exactly, that's expected, not a mistake.
+> The prompts are starting points. Replace bracketed text with your own topic, file, meeting, or audience. Keep prompts simple, review Copilot's sources, and validate important facts before using the output.
 
-1. Attach the sample **project-tracker.csv** you downloaded in [Flight Assets](#flight-assets). Drag and drop it into the conversation, or use **+** → **Upload images and files**.
+## Activity 1 - Prepare for an Executive Review {#activity-1}
 
-    > [!TIP]
-    > **Want to make it real?** Instead of the sample file, point Cowork at your own work: attach a task list, project tracker, or status spreadsheet you already have, or use **+** → **Add work context** to reference a few recent emails or a Teams chat about an ongoing project. The steps are the same - just expect different results.
+Use **Copilot Chat** to create a short briefing for a leadership meeting.
 
-1. Add a couple of new lines after the attachment using **Shift + Enter** to make some space, then paste the following prompt:
+### Turn Findings into an Update
 
-    ```text
-    Help me get a clear picture of where this project stands.
+1. Open [Microsoft 365 Copilot Chat](https://m365copilot.com/).
+1. Use work mode if available.
+1. Reference a relevant meeting, document, email thread, or topic.
+1. Ask Copilot for a concise executive briefing.
+1. Review the response and check any cited sources.
 
-    1. Read through the file I've shared and sort the items into what's open,
-       in progress, and done. Call out the few that most need attention.
-    2. Build an interactive HTML Kanban board with three lanes - Open / Needs Action,
-       In Progress / Monitoring, and Done - plus a compact header showing the total
-       item count, how many are open, how many are done, and the single item that most
-       needs attention.
-    3. Send me a summary report via email.
-    4. Write a brief Teams update for a project channel. Don't post it - I just want the draft to review.
+### Start with this prompt
 
-    If anything's unclear or missing, ask me one focused question before you start.
-    ```
+```text
+Prepare me for my next leadership review about [topic]. Summarize the key context, decisions needed, risks, and questions I should ask.
+```
 
-1. Submit the prompt.
+### Refine the result
 
-1. As Cowork works, watch it **think out loud**. It shows a step-by-step progress log, the skills it loads, and the files it produces. Call out what you see:
+```text
+Make this briefing shorter and organize it into: Key Takeaway, Risks, Decisions Needed, and Next Steps.
+```
 
-    - Which **skills** activate (for example, an html skill, then a communications skill)
-    - Which files appear in the **output** for you to download or preview
-    - Any **references** it used from your work context
+> [!TIP]
+> Strong executive prompts make the decision or outcome explicit. Point Copilot to the most relevant sources and name the audience, format, and level of detail you need.
 
-        ![Cowork showing steps, outputs, references, and skills used](./assets/steps-skills-shown.png)
+## Activity 2 - Analyze a Forecast Workbook {#activity-2}
 
-    > [!NOTE]
-    > The **thinking indicator** lets you know when Cowork is breaking your request into steps and working through them, narrating as it goes. Behind it is [Work IQ](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq), the intelligence layer that reasons across your emails, meetings, files, chats, and calendar to find what's relevant, within your organization's permissions.
-    >
-    > ![Cowork thinking indicator](./assets/thinking.png)
+Use **Copilot in Excel** to identify business trends and risks in a sample forecast workbook.
 
-1. When Cowork finishes, open the **HTML board** it produced to preview it directly in the conversation.
+### Get the workbook ready
 
-1. Navigate to [Outlook](https://outlook.office.com) and check your inbox. You should have an email from Copilot Cowork.
+1. Open the sample workbook at [aka.ms/sampleExcel2](https://aka.ms/sampleExcel2).
+1. Download the workbook to your device.
+1. Upload or save the workbook to your OneDrive.
+1. Open the OneDrive copy in Excel for the web or desktop Excel.
+1. Confirm the data is formatted as a table.
+1. Open Copilot in Excel.
+
+### Analyze the business
+
+Ask Copilot to identify trends, risks, and recommended actions:
+
+```text
+Analyze this workbook for an executive. Identify the biggest revenue, expense, and margin trends, and show the evidence for each.
+```
+
+Then investigate the highest-pressure areas:
+
+```text
+Find the areas with the highest margin pressure. Summarize what is driving the issue and suggest three leadership actions.
+```
+
+Optionally, turn the analysis into an executive summary:
+
+```text
+Create an executive summary of this forecast with the top three insights, risks to watch, and questions for the finance team.
+```
+
+> [!IMPORTANT]
+> Validate the numbers, calculations, and assumptions in the workbook before using the analysis to make or communicate a business decision.
+
+## Activity 3 - Draft a Leadership Update {#activity-3}
+
+Use **Copilot in Word** or **Copilot Chat** to turn your findings into a concise leadership update.
+
+### Steps
+
+1. Open [Word](https://word.new) or stay in Copilot Chat.
+1. Use the meeting briefing and forecast insights from Activities 1 and 2.
+1. Draft a short update for a senior leadership audience.
+1. Refine the tone and shorten the message.
+1. Confirm that the final version is accurate and appropriate to share.
+
+### Draft the update
+
+```text
+Draft a concise leadership update based on these findings. Use four sections: Progress, Risks, Decisions Needed, and Next Steps.
+```
+
+### Make it executive-ready
+
+```text
+Rewrite this for a senior executive audience. Make it shorter, clearer, and focused on decisions and next steps.
+```
 
 ## What Done Looks Like {#what-done-looks-like}
 
-A successful run looks like:
+Before using your final output, check:
 
-- An HTML board is generated and previewable in the conversation
-- The board clearly separates open, in-progress, and completed items
-- You received an email summary in your inbox
-- A Teams update draft is prepared (not posted)
-- You can point to where skills activated, what Cowork produced, and where it asked for your approval
+- Are the facts accurate?
+- Are the sources appropriate?
+- Are risks and assumptions clearly labeled?
+- Are decisions and next steps explicit?
+- Is the message short enough for a senior audience?
 
-Quick debrief:
+## A Simple Prompt Pattern {#prompt-pattern}
 
-- What did Cowork discover that you didn't expect?
-- Which skill activation was most useful here?
-- Which action did you hold back from approving, and why?
+Use this structure to shape your own prompts:
 
-## Pre-Flight Complete {#pre-flight-complete}
+```text
+Goal: [what you want]
+Context: [why it matters and who the audience is]
+Sources: [specific file, email, meeting, or workbook]
+Expectations: [format, length, tone, and sections]
+```
 
-You found your way around Copilot Cowork, ran a discovery-first task, and produced a board, a summary email, and a Teams update draft for review.
+## Lab Complete {#lab-complete}
 
-What you saw in action:
+You used Copilot across three connected executive workflows: prepare, analyze, and communicate.
 
-✅ **Discovery before action**: You asked Cowork to analyze first, then act - sending your summary and holding the Teams post for your review.
+What you practiced:
 
-✅ **Skills load on demand**: Cowork showed exactly which skills it used to build the board and the communications.
+✅ **Grounding in business context**: You directed Copilot to the meetings, documents, messages, and data relevant to the decision.
 
-✅ **You stay in control**: Cowork checked in for approval before it acted.
+✅ **Moving from insight to action**: You turned analysis into explicit risks, decisions, owners, and next steps.
+
+Continue with the [Executive Prompt Library](/weekly-update/) to adapt these patterns to more leadership scenarios.
+
+<!-- markdownlint-enable MD013 -->
