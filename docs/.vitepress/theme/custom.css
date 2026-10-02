@@ -69,6 +69,10 @@ html:not(.dark) .dark-only {
   max-width: 60ch;
 }
 
+.home-section-intro--wide {
+  max-width: none;
+}
+
 /* Highlighted "big question" bubble */
 .question-bubble {
   position: relative;

@@ -29,7 +29,7 @@ This experience uses lightweight, adaptable materials to help you move from busi
 
 ## Immersion materials {#immersion-materials}
 
-<p class="home-section-intro">Start with prompting fundamentals, complete the participant lab, keep the prompt library nearby, and use the trainer guide to prepare the optional agent demonstration.</p>
+<p class="home-section-intro home-section-intro--wide">Start with prompting fundamentals, complete the participant lab, keep the prompt library nearby, and use the trainer guide to prepare the optional agent demonstration.</p>
 
 <div class="lab-grid">
   <a class="lab-card" href="./commercial-bank-lab/">
