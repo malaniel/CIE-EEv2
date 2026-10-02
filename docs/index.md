@@ -1,0 +1,113 @@
+---
+layout: home
+
+hero:
+  name: AI Skill Building with Cowork
+  text: Learn by doing
+  tagline: Hands-on, guided exercises for delegating real work to Microsoft 365 Copilot Cowork.
+  image:
+    src: /CoworkIcon.png
+    alt: Microsoft 365 Copilot Cowork
+  actions:
+    - theme: brand
+      text: Start the first flight
+      link: /orientation/
+    - theme: alt
+      text: What is Cowork?
+      link: https://aka.ms/CoworkonASN
+      target: _blank
+      rel: noreferrer
+---
+
+<!-- markdownlint-disable MD033 MD041 -->
+<div class="home-section">
+
+## Before you get started
+
+<!-- markdownlint-disable-next-line MD033 -->
+<p class="home-section-intro">A quick thought experiment to get you in the Cowork mindset.</p>
+
+<div class="question-bubble">
+
+What if you had a colleague who never sleeps, one you could hand a task to that would dig through your files, emails, and chats, do the work, and hand it back ready for your review?
+
+</div>
+
+What's the first thing you'd delegate? A few to get you thinking:
+
+- The status report you rebuild every week
+- Triaging and clearing your inbox
+- Pulling meeting prep together from a dozen scattered threads
+
+Now imagine getting that finished work back, and how much of your week you'd get back with it. That's the shift Copilot Cowork is built for: you describe the outcome, it does the legwork across your Microsoft 365 environment, and you stay in control.
+
+<div class="callout-bubble">
+<span class="callout-bubble-icon">👋</span>
+
+**Following along at Microsoft Start?** Take a few minutes to turn to the peers at your table or beside you, make some brief introductions, and swap answers to the question above.
+
+</div>
+
+</div>
+
+<div class="home-section">
+
+## Your flight plan
+
+<!-- markdownlint-disable MD033 -->
+<div class="lab-grid">
+  <a class="lab-card" href="/how-to-use-cowork/orientation/">
+    <span class="lab-card-meta">
+      <span class="lab-card-badge">Flight 01</span>
+      <span class="lab-card-time">⏱️ 15 min</span>
+    </span>
+    <span class="lab-card-emoji">✈️</span>
+    <span class="lab-card-title">Orientation Through Discovery</span>
+    <span class="lab-card-desc">Get oriented in Copilot Cowork, find your skills, and run a discovery-first dashboard workflow.</span>
+    <span class="lab-card-cta">Start flight →</span>
+  </a>
+  <a class="lab-card" href="/how-to-use-cowork/weekly-update/">
+    <span class="lab-card-meta">
+      <span class="lab-card-badge">Flight 02</span>
+      <span class="lab-card-time">⏱️ 10 min</span>
+    </span>
+    <span class="lab-card-emoji">🛠️</span>
+    <span class="lab-card-title">Your Weekly Manager Update</span>
+    <span class="lab-card-desc">Have Cowork rebuild your week into a leadership update and put it on a schedule.</span>
+    <span class="lab-card-cta">Start flight →</span>
+  </a>
+  <a class="lab-card" href="/how-to-use-cowork/make-it-your-own/">
+    <span class="lab-card-meta">
+      <span class="lab-card-badge">Flight 03</span>
+      <span class="lab-card-time">⏱️ 10 min</span>
+    </span>
+    <span class="lab-card-emoji">🚀</span>
+    <span class="lab-card-title">Make It Your Own</span>
+    <span class="lab-card-desc">Take the controls and pick your path: build your own custom skill, or hand Cowork a whole job to run.</span>
+    <span class="lab-card-cta">Start flight →</span>
+  </a>
+</div>
+
+<a class="bonus-card" href="/how-to-use-cowork/learn-cowork-with-cowork/">
+  <span class="bonus-card-emoji">🎓</span>
+  <span class="bonus-card-body">
+    <span class="bonus-card-badge">Optional · take it home</span>
+    <span class="bonus-card-title">Learn Cowork with Cowork</span>
+    <span class="bonus-card-desc">Not a flight, just a bonus. Download a custom skill that teaches you Cowork on your own time, using a real task you bring.</span>
+  </span>
+  <span class="bonus-card-cta">Grab the skill →</span>
+</a>
+
+<a class="resource-bubble" href="/how-to-use-cowork/resources/">
+  <span class="resource-bubble-icon">📚</span>
+  <span class="resource-bubble-text">
+    <span class="resource-bubble-title">Resources</span>
+    <span class="resource-bubble-desc">Official docs and guides to go deeper after the flights.</span>
+  </span>
+  <span class="resource-bubble-cta">View →</span>
+</a>
+<!-- markdownlint-enable MD033 -->
+
+</div>
+
+<!-- markdownlint-enable MD033 MD041 -->
