@@ -3,7 +3,6 @@ layout: home
 
 hero:
   name: Copilot Immersion Experience for Banking Leaders
-  text: Practical AI for commercial banking leaders
   tagline: Prepare for executive reviews, analyze business trends, and communicate decisions with Microsoft 365 Copilot.
 ---
 
