@@ -13,9 +13,9 @@ export default defineConfig({
       {
         text: "Immersion materials",
         items: [
-          { text: "Commercial Bank Lab", link: "/orientation/" },
-          { text: "Executive Prompt Library", link: "/weekly-update/" },
-          { text: "Chief of Staff Agent", link: "/make-it-your-own/" },
+          { text: "Commercial Bank Lab", link: "/commercial-bank-lab/" },
+          { text: "Executive Prompt Library", link: "/executive-prompt-library/" },
+          { text: "Chief of Staff Agent", link: "/chief-of-staff-agent/" },
         ],
       },
       { text: "Resources", link: "/resources/" },
@@ -27,9 +27,9 @@ export default defineConfig({
       {
         text: "Immersion materials",
         items: [
-          { text: "Commercial Bank Lab", link: "/orientation/" },
-          { text: "Executive Prompt Library", link: "/weekly-update/" },
-          { text: "Chief of Staff Agent", link: "/make-it-your-own/" },
+          { text: "Commercial Bank Lab", link: "/commercial-bank-lab/" },
+          { text: "Executive Prompt Library", link: "/executive-prompt-library/" },
+          { text: "Chief of Staff Agent", link: "/chief-of-staff-agent/" },
         ],
       },
       {

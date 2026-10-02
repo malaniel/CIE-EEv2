@@ -138,6 +138,6 @@ What you practiced:
 
 ✅ **Moving from insight to action**: You turned analysis into explicit risks, decisions, owners, and next steps.
 
-Continue with the [Executive Prompt Library](/weekly-update/) to adapt these patterns to more leadership scenarios.
+Continue with the [Executive Prompt Library](/executive-prompt-library/) to adapt these patterns to more leadership scenarios.
 
 <!-- markdownlint-enable MD013 -->

@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Start the participant lab
-      link: /orientation/
+      link: /commercial-bank-lab/
     - theme: alt
       text: Browse the materials
       link: "#immersion-materials"
@@ -43,7 +43,7 @@ The Excel activity uses the sample workbook at [aka.ms/sampleExcel2](https://aka
 <p class="home-section-intro">Start with the participant lab, keep the prompt library nearby, and use the trainer guide to prepare the optional agent demonstration.</p>
 
 <div class="lab-grid">
-  <a class="lab-card" href="./orientation/">
+  <a class="lab-card" href="./commercial-bank-lab/">
     <span class="lab-card-meta">
       <span class="lab-card-badge">Participant experience</span>
     </span>
@@ -52,7 +52,7 @@ The Excel activity uses the sample workbook at [aka.ms/sampleExcel2](https://aka
     <span class="lab-card-desc">Prepare for an executive review, analyze a forecast workbook, and draft a leadership-ready update.</span>
     <span class="lab-card-cta">Start the lab →</span>
   </a>
-  <a class="lab-card" href="./weekly-update/">
+  <a class="lab-card" href="./executive-prompt-library/">
     <span class="lab-card-meta">
       <span class="lab-card-badge">Ready reference</span>
     </span>
@@ -61,7 +61,7 @@ The Excel activity uses the sample workbook at [aka.ms/sampleExcel2](https://aka
     <span class="lab-card-desc">Copy-ready prompts for meetings, portfolio and risk reviews, communications, and Excel analysis.</span>
     <span class="lab-card-cta">Explore prompts →</span>
   </a>
-  <a class="lab-card" href="./make-it-your-own/">
+  <a class="lab-card" href="./chief-of-staff-agent/">
     <span class="lab-card-meta">
       <span class="lab-card-badge">Trainer setup</span>
     </span>

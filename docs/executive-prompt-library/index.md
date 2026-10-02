@@ -112,6 +112,6 @@ Sources: [specific file, email, meeting, or workbook]
 Expectations: [format, length, tone, and sections]
 ```
 
-The [Commercial Bank Lab](/orientation/) shows how several of these prompts connect in a single executive workflow.
+The [Commercial Bank Lab](/commercial-bank-lab/) shows how several of these prompts connect in a single executive workflow.
 
 <!-- markdownlint-enable MD013 -->
