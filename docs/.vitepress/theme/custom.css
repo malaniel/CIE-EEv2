@@ -57,6 +57,14 @@ html:not(.dark) .dark-only {
   max-width: none;
 }
 
+@media (min-width: 960px) {
+  .VPHomeHero:not(.has-image) .name {
+    font-size: clamp(36px, 3.7vw, 48px);
+    line-height: 1.15;
+    white-space: nowrap;
+  }
+}
+
 /* Home page sections (rendered inside the home layout) */
 .home-section {
   max-width: 1152px;
