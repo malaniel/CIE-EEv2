@@ -2,7 +2,7 @@
   "name": "cie-eev2",
   "version": "1.0.0",
   "private": true,
-  "description": "Executive Copilot Immersion materials for commercial banking leaders.",
+  "description": "Copilot Immersion Experience materials for commercial banking leaders.",
   "devDependencies": {
     "markdownlint-cli2": "^0.22.0",
     "vitepress": "^2.0.0-alpha.12"
