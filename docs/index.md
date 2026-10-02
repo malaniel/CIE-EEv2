@@ -23,10 +23,6 @@ This experience uses lightweight, adaptable materials to help you move from busi
 
 </div>
 
-### Sample workbook
-
-The Excel activity uses the sample workbook at [aka.ms/sampleExcel2](https://aka.ms/sampleExcel2). Download it, save or upload it to OneDrive, and open the OneDrive copy before using Copilot in Excel.
-
 </div>
 
 <div class="home-section">
@@ -73,6 +69,10 @@ The Excel activity uses the sample workbook at [aka.ms/sampleExcel2](https://aka
     <span class="lab-card-cta">Learn the pattern →</span>
   </a>
 </div>
+
+### Sample workbook
+
+The Excel activity uses the sample workbook at [aka.ms/sampleExcel2](https://aka.ms/sampleExcel2). Download it, save or upload it to OneDrive, and open the OneDrive copy before using Copilot in Excel.
 
 </div>
 

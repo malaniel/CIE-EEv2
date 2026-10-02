@@ -23,6 +23,17 @@ By the end of this guide, you will be able to:
 > [!NOTE]
 > You do not need special syntax or technical language. Start with a clear request, add relevant context and sources, then describe the response you want.
 
+## Prepare for Your Next Meeting {#prepare-for-your-next-meeting}
+
+A basic request becomes much more useful when you add the desired outcome, business context, named sources, and expected response format.
+
+The following practical example shows how to build a meeting-preparation prompt using all four ingredients. It also demonstrates how Work IQ can ground Copilot in your real work information, including your calendar, meetings, files, email, and chats.
+
+![A meeting-preparation prompt structured with a goal, context, sources, and expectations](./assets/prepare-for-your-next-meeting.png)
+
+> [!TIP]
+> Before your next meeting, name at least one specific source in your prompt. This helps Copilot produce an answer that is current, relevant, and easier to verify.
+
 ## What Can You Ask Copilot to Do? {#what-copilot-can-do}
 
 Copilot can help you with many common work tasks.
@@ -128,17 +139,6 @@ Here is how the prompt works:
 | **Context** | The customer is not a global administrator, so I need to explain the change in terms that are relevant to their role. |
 | **Source** | Use the product-change announcement at [Change URL]. |
 | **Expectations** | Provide clear and concise information in a professional tone. |
-
-## Prepare for Your Next Meeting {#prepare-for-your-next-meeting}
-
-A basic request becomes much more useful when you add the desired outcome, business context, named sources, and expected response format.
-
-The following practical example shows how to build a meeting-preparation prompt using all four ingredients. It also demonstrates how Work IQ can ground Copilot in your real work information, including your calendar, meetings, files, email, and chats.
-
-![A meeting-preparation prompt structured with a goal, context, sources, and expectations](./assets/prepare-for-your-next-meeting.png)
-
-> [!TIP]
-> Before your next meeting, name at least one specific source in your prompt. This helps Copilot produce an answer that is current, relevant, and easier to verify.
 
 ## A Reusable Prompt Pattern {#reusable-prompt-pattern}
 
