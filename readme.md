@@ -104,6 +104,19 @@ Archive content is not published or included in site search. Copy only the
 artifact you want to reuse into `content-staging/`, adapt it, and then move the
 finished version into `docs/`.
 
+## Canadian French pilot
+
+The approved French version of Prompting Best Practices is published at
+[`/fr/prompting-best-practices/`](https://malaniel.github.io/CIE-EEv2/fr/prompting-best-practices/).
+Its source and French image are in `docs/fr/prompting-best-practices/`.
+The navigation includes a direct link to this pilot; the remaining pages and
+shared site navigation are still English. A full language selector will follow
+when the other pages are translated.
+
+Update both language versions together when changing this guide. Keep drafts
+and unreviewed replacement images in `content-staging/`, then promote approved
+content into `docs/fr/` before building and deploying.
+
 ## Deployment
 
 Every push to `main` runs the

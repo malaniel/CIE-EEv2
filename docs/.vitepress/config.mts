@@ -9,6 +9,18 @@ export default defineConfig({
   description: siteDescription,
   base: "/CIE-EEv2/",
   cleanUrls: true,
+  // Empty labels keep the full language selector hidden during the pilot.
+  locales: {
+    root: { lang: "en-US", label: "" },
+    fr: {
+      lang: "fr-CA",
+      label: "",
+      themeConfig: {
+        outline: { label: "Sur cette page", level: "deep" },
+        returnToTopLabel: "Retour en haut",
+      },
+    },
+  },
   head: [
     ["link", { rel: "icon", href: "/CIE-EEv2/CoworkIcon.png" }],
     ["meta", { property: "og:type", content: "website" }],
@@ -36,6 +48,10 @@ export default defineConfig({
           { text: "Chief of Staff Agent", link: "/chief-of-staff-agent/" },
           { text: "Prompting Best Practices", link: "/prompting-best-practices/" },
         ],
+      },
+      {
+        text: "Français — Trucs & Astuces",
+        link: "/fr/prompting-best-practices/",
       },
     ],
     search: {
