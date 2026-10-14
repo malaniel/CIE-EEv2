@@ -123,10 +123,10 @@ The localized agent is named **Chef de cabinet**; its instructions default
 to Canadian French while allowing the user to request another language.
 
 The sample workbook remains English; preserve its sheet and column names.
-The home-page Top Tips graphic also remains English, with a French text
-equivalent and an explicit label. The meeting-preparation illustration in the
-French prompting guide is already localized. Replace remaining graphics with
-approved French assets when available.
+The French home-page Top Tips graphic is `docs/fr/assets/AstucesCopilotChat.png`,
+with a French text equivalent alongside it. The meeting-preparation illustration
+in the French prompting guide is also localized. Keep English and French
+graphics separate when updating assets.
 
 Update both language versions together when changing content, and review
 copy-ready examples and governance safeguards in both languages. Keep drafts

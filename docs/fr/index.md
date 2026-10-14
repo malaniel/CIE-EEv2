@@ -105,9 +105,7 @@ Copilot Chat propose des raccourcis et des commandes pour faire référence au c
 
 Les libellés et les fonctionnalités disponibles peuvent varier selon la langue de votre interface, votre licence et les paramètres de votre organisation.
 
-*L’illustration de référence ci-dessous est en anglais. Le tableau ci-dessus en présente les astuces en français.*
-
-![Illustration en anglais des raccourcis de Copilot Chat : barre oblique, arobase, signet, horloge et personnalisation](../assets/CopilotChatTopTips.png)
+![Astuces en français pour Copilot Chat : barre oblique, arobase, favoris, horloge et instructions personnalisées](./assets/AstucesCopilotChat.png)
 
 </div>
 
