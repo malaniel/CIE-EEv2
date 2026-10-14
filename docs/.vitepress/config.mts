@@ -40,7 +40,7 @@ export default defineConfig({
       description: frenchDescription,
       themeConfig: {
         siteTitle: "Expérience immersive Copilot",
-        logoLink: "/fr/",
+        logoLink: "/CIE-EEv2/fr/",
         nav: [
           { text: "Accueil", link: "/fr/" },
           { text: "Ressources de l’expérience", items: frenchMaterials },
