@@ -9,7 +9,7 @@ hero:
       text: Ressources de l’expérience
       link: "#immersion-materials"
     - theme: alt
-      text: Classeur d’exemple
+      text: Exemple de classeur Excel
       link: "#sample-workbook"
     - theme: alt
       text: Astuces pour Copilot Chat
@@ -79,9 +79,9 @@ Cette expérience propose des ressources simples et adaptables pour vous aider �
   </a>
 </div>
 
-### Classeur d’exemple {#sample-workbook}
+### Exemple de classeur Excel {#sample-workbook}
 
-L’activité Excel utilise le classeur d’exemple à [aka.ms/sampleExcel2](https://aka.ms/sampleExcel2). Téléchargez-le, enregistrez-le ou téléversez-le dans OneDrive, puis ouvrez la copie OneDrive avant d’utiliser Copilot dans Excel.
+L’activité Excel utilise l’exemple de classeur Excel à [aka.ms/sampleExcel2](https://aka.ms/sampleExcel2). Téléchargez-le, enregistrez-le ou téléversez-le dans OneDrive, puis ouvrez la copie OneDrive avant d’utiliser Copilot dans Excel.
 
 Le classeur fourni est en anglais. Conservez ses noms de feuilles et ses en-têtes de colonnes lorsque vous y faites référence; vous pouvez demander à Copilot de présenter son analyse en français canadien.
 

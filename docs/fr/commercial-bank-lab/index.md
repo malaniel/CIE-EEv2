@@ -59,7 +59,7 @@ Utilisez **Copilot dans Excel** pour repérer les tendances d’affaires et les 
 
 ### Préparez le classeur {#get-the-workbook-ready}
 
-1. Ouvrez le classeur d’exemple à [aka.ms/sampleExcel2](https://aka.ms/sampleExcel2).
+1. Ouvrez l’exemple de classeur Excel à [aka.ms/sampleExcel2](https://aka.ms/sampleExcel2).
 1. Téléchargez-le sur votre appareil.
 1. Téléversez-le ou enregistrez-le dans OneDrive.
 1. Ouvrez la copie OneDrive dans Excel pour le Web ou dans l’application de bureau Excel.
@@ -67,7 +67,7 @@ Utilisez **Copilot dans Excel** pour repérer les tendances d’affaires et les 
 1. Ouvrez Copilot dans Excel.
 
 ::: info Classeur en anglais
-Le classeur d’exemple est en anglais. Conservez les noms des feuilles et les en-têtes de colonnes tels qu’ils apparaissent dans le fichier lorsque vous y faites référence. Les requêtes ci-dessous demandent une analyse en français canadien.
+L’exemple de classeur Excel est en anglais. Conservez les noms des feuilles et les en-têtes de colonnes tels qu’ils apparaissent dans le fichier lorsque vous y faites référence. Les requêtes ci-dessous demandent une analyse en français canadien.
 :::
 
 ### Analysez les résultats d’affaires {#analyze-the-business}

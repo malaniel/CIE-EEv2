@@ -96,7 +96,7 @@ Répondez en français canadien.
 
 Utilisez ces requêtes avec le classeur à [aka.ms/sampleExcel2](https://aka.ms/sampleExcel2). Téléchargez-le, enregistrez-le dans OneDrive et ouvrez la copie OneDrive avant d’utiliser Copilot dans Excel.
 
-Le classeur d’exemple est en anglais. Conservez ses noms de feuilles et ses en-têtes de colonnes lorsque vous y faites référence.
+L’exemple de classeur Excel est en anglais. Conservez ses noms de feuilles et ses en-têtes de colonnes lorsque vous y faites référence.
 
 ### Repérez les principales tendances {#find-the-major-trends}
 
