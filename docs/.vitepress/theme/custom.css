@@ -57,6 +57,10 @@ html:not(.dark) .dark-only {
   max-width: none;
 }
 
+html[lang="fr-CA"] .VPHomeHero:not(.has-image) .name {
+  white-space: normal;
+}
+
 @media (min-width: 960px) {
   .VPHomeHero:not(.has-image) .name {
     font-size: clamp(36px, 3.7vw, 48px);

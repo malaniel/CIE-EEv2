@@ -1,6 +1,5 @@
 ---
 description: Découvrez comment rédiger des requêtes (prompts) efficaces dans Microsoft 365 Copilot en précisant l’objectif, le contexte, les sources et les attentes.
-sidebar: false
 outline: deep
 ---
 
@@ -56,27 +55,27 @@ Avant votre prochaine réunion, indiquez au moins une source précise dans votre
 
 Copilot peut vous aider à accomplir de nombreuses tâches courantes au travail.
 
-### Réviser un texte
+### Réviser un texte {#review-text}
 
 ```text
 Vérifiez si cet argumentaire de lancement de produit contient des incohérences.
 Répondez en français canadien.
 ```
 
-### Résumer de l’information
+### Résumer de l’information {#summarize-information}
 
 ```text
 Rédigez un résumé de séance en français canadien à partir de cette présentation.
 ```
 
-### Créer du contenu convaincant
+### Créer du contenu convaincant {#create-engaging-content}
 
 ```text
 Rédigez une proposition de valeur en français canadien pour notre nouveau
 produit à partir de [Renseignements sur le produit].
 ```
 
-### Faire des recherches sur un sujet
+### Faire des recherches sur un sujet {#research-a-topic}
 
 ```text
 Présentez les dernières nouvelles du secteur concernant l’IA générative.
@@ -98,7 +97,7 @@ Pour obtenir une réponse plus pertinente et utile, précisez les quatre composa
 | **Sources** | Quels fichiers, réunions, messages, liens ou exemples Copilot doit-il utiliser? |
 | **Attentes** | Comment Copilot doit-il structurer et présenter sa réponse? |
 
-### 1. Objectif
+### 1. Objectif {#_1-goal}
 
 Indiquez ce que vous voulez que Copilot fasse. Placez l’objectif au début de votre requête ou près du début.
 
@@ -107,7 +106,7 @@ Aidez-moi à rédiger un courriel pour informer un client d’un changement
 apporté à un produit.
 ```
 
-### 2. Contexte
+### 2. Contexte {#_2-context}
 
 Expliquez pourquoi vous avez besoin de cette réponse, qui est concerné et quelles circonstances sont importantes.
 
@@ -116,7 +115,7 @@ Le client n’occupe pas le rôle d’administrateur général. Je dois donc
 expliquer le changement dans des termes adaptés à son rôle.
 ```
 
-### 3. Sources
+### 3. Sources {#_3-source-s}
 
 Précisez l’information que Copilot doit utiliser. Nommer des sources précises est l’un des moyens les plus efficaces d’améliorer le résultat.
 
@@ -132,7 +131,7 @@ Les sources peuvent comprendre :
 - Une page Web ou une autre référence
 - Un exemple du style ou du format souhaité
 
-### 4. Attentes
+### 4. Attentes {#_4-expectations}
 
 Décrivez les caractéristiques d’une bonne réponse. Précisez le format, la longueur, le ton, le public cible ou les sections souhaitées.
 

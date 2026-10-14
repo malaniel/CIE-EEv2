@@ -104,18 +104,36 @@ Archive content is not published or included in site search. Copy only the
 artifact you want to reuse into `content-staging/`, adapt it, and then move the
 finished version into `docs/`.
 
-## Canadian French pilot
+## English and Canadian French
 
-The approved French version of Prompting Best Practices is published at
-[`/fr/prompting-best-practices/`](https://malaniel.github.io/CIE-EEv2/fr/prompting-best-practices/).
-Its source and French image are in `docs/fr/prompting-best-practices/`.
-The navigation includes a direct link to this pilot; the remaining pages and
-shared site navigation are still English. A full language selector will follow
-when the other pages are translated.
+English remains at the existing URLs. The complete Canadian French experience
+starts at [`/fr/`](https://malaniel.github.io/CIE-EEv2/fr/), with matching
+home, lab, prompt library, agent guide, and prompting best practices pages.
+Use the language menu in the header (or the mobile navigation menu) to switch
+between **English** and **Français** on the corresponding page.
 
-Update both language versions together when changing this guide. Keep drafts
+French source lives under `docs/fr/`. Keep matching page slugs and explicit
+heading IDs so language switching preserves the page and section. French
+navigation and content links must remain under `/fr/`.
+
+Use professional Canadian French, address readers with **vous**, and translate
+prompts as **requêtes (prompts)** on first mention, then **requêtes**.
+The French prompting best practices page is titled **Trucs & Astuces**.
+The localized agent is named **Chef de cabinet**; its instructions default
+to Canadian French while allowing the user to request another language.
+
+The sample workbook remains English; preserve its sheet and column names.
+The home-page Top Tips graphic also remains English, with a French text
+equivalent and an explicit label. The meeting-preparation illustration in the
+French prompting guide is already localized. Replace remaining graphics with
+approved French assets when available.
+
+Update both language versions together when changing content, and review
+copy-ready examples and governance safeguards in both languages. Keep drafts
 and unreviewed replacement images in `content-staging/`, then promote approved
-content into `docs/fr/` before building and deploying.
+content into `docs/fr/`. Before deployment, run `npm run lint:md` and
+`npm run docs:build`, and check desktop/mobile language switching, French
+search, and page links.
 
 ## Deployment
 
